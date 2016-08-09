@@ -11,8 +11,8 @@ $card-summary-min-height: 145px;
 
 $font-size: 1em;
 
-@import "./components/all";
 @import "./fonts";
+@import "./components/all";
 
 html, body {
   margin: 0;
@@ -25,6 +25,8 @@ html, body {
 
 a, a:hover, a:focus, a:visited {
   text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .main {

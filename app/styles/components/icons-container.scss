@@ -7,6 +7,10 @@
     align-items: center;
     margin: 10px;
     cursor: pointer;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    justify-content: flex-end;
 
     &:hover {
       opacity: 0.5
@@ -14,6 +18,10 @@
 
     .icon {
       padding: 10px;
+    }
+
+    a {
+      text-align: center;
     }
   }
 }
