@@ -1,0 +1,38 @@
+$avatar-border-width: 3px;
+$avatar-border-radius: 5px;
+
+$sidebar-avatar-width: 70px;
+$sidebar-padding: 20px;
+$sidebar-width: $sidebar-avatar-width + 2 * $sidebar-padding + 2 * $avatar-border-width;
+
+$canvas-margin: 50px;
+$card-summary-width: 300px;
+$card-summary-min-height: 145px;
+
+$font-size: 1em;
+
+@import "./components/all";
+@import "./fonts";
+
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-y: scroll;
+
+}
+
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+}
+
+.main {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+}
