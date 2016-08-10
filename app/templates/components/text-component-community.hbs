@@ -39,35 +39,37 @@
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/unless}}
-      {{#if isExpanded}}
-        <p>
-          Community support is a strong indicator of a successful technology. This includes training of new developers and those new to the Ember framework, the publishing of educational content related to Ember, and the conferences and meetups that make the community social and connected.
-        </p>
-        <p>
-          “The ones that are successful tend to be so as a result of sufficient people, groups, companies in a languages ecosystem building up value around them.” – Ruby on Rails whitepaper
-        </p>
-        <p>
-          However, many organizations mistake a correlation between the size of the community involved with a framework and the quality of its contributors. Organizations look at statistics like GitHub stars and StackOverflow questions to determine which technology is most strongly supported by the development community. It is important to look past these numbers on the surface to find what they truly indicate.
-        </p>
-        <p>
-          A framework may have the most questions and answers on StackOverflow, but if that framework is not opinionated then it will be very difficult to find an example that will actually solve a problem, leading to more questions being asked. A statistic like this is more of an indication that a new question has to be asked for every single obstacle, instead of having the most relevant examples. On the other hand, with an opinionated framework like Ember it is very easy to find examples that can actually be applied to a problem as it is highly likely that a developer will be building something in a similar way and may have run into the same issue.
-        </p>
-        <p>
-          Developers love Ember because it is approachable, opinionated and helps them to be productive. There is a worldwide community of Ember developers, making hiring easy and providing for on-going learning for your team.
-        </p>
-        <p>
-          Approachability is a key point that an enterprise should consider, and the Ember team is certainly committed to keeping the framework approachable to beginners, experts and everyone in between. Their sites are light hearted and full of high quality documentation and loads of examples. Developers will also find the lovable Ember mascot, the Tomster, cheering them on wherever they go throughout the Ember ecosystem.
-        </p>
-        <p>
-          International conferences in the U.S. and Europe provide some of the best networking, recruiting and educational opportunities. Ember’s conference lineup and meetup network are quite vibrant communities and show the team’s and individual developers’ enthusiasm for the framework and its ideas. The EmberConf conferences are one of the best and most effective ways of getting to know the framework.
-        </p>
-        <p>
-          The Ember team is determined to be successful, being an open source project that success hinges on the success of all Ember developers as a whole. The Ember community is large, international and highly enthusiastic about the framework. Not only is the community large, but the quality of the contributions of the community is also the highest of any front-end framework. It is easy to find top class training and documentation as well as relevant examples to solve common problems that apply to all Ember projects.
-        </p>
-        <div class="component-contract">
-          <img class="expand-chevron" src="images/icon-chevron.svg" />
-        </div>
-      {{/if}}
+
+        {{#liquid-if isExpanded}}
+          <p>
+            Community support is a strong indicator of a successful technology. This includes training of new developers and those new to the Ember framework, the publishing of educational content related to Ember, and the conferences and meetups that make the community social and connected.
+          </p>
+          <p>
+            “The ones that are successful tend to be so as a result of sufficient people, groups, companies in a languages ecosystem building up value around them.” – Ruby on Rails whitepaper
+          </p>
+          <p>
+            However, many organizations mistake a correlation between the size of the community involved with a framework and the quality of its contributors. Organizations look at statistics like GitHub stars and StackOverflow questions to determine which technology is most strongly supported by the development community. It is important to look past these numbers on the surface to find what they truly indicate.
+          </p>
+          <p>
+            A framework may have the most questions and answers on StackOverflow, but if that framework is not opinionated then it will be very difficult to find an example that will actually solve a problem, leading to more questions being asked. A statistic like this is more of an indication that a new question has to be asked for every single obstacle, instead of having the most relevant examples. On the other hand, with an opinionated framework like Ember it is very easy to find examples that can actually be applied to a problem as it is highly likely that a developer will be building something in a similar way and may have run into the same issue.
+          </p>
+          <p>
+            Developers love Ember because it is approachable, opinionated and helps them to be productive. There is a worldwide community of Ember developers, making hiring easy and providing for on-going learning for your team.
+          </p>
+          <p>
+            Approachability is a key point that an enterprise should consider, and the Ember team is certainly committed to keeping the framework approachable to beginners, experts and everyone in between. Their sites are light hearted and full of high quality documentation and loads of examples. Developers will also find the lovable Ember mascot, the Tomster, cheering them on wherever they go throughout the Ember ecosystem.
+          </p>
+          <p>
+            International conferences in the U.S. and Europe provide some of the best networking, recruiting and educational opportunities. Ember’s conference lineup and meetup network are quite vibrant communities and show the team’s and individual developers’ enthusiasm for the framework and its ideas. The EmberConf conferences are one of the best and most effective ways of getting to know the framework.
+          </p>
+          <p>
+            The Ember team is determined to be successful, being an open source project that success hinges on the success of all Ember developers as a whole. The Ember community is large, international and highly enthusiastic about the framework. Not only is the community large, but the quality of the contributions of the community is also the highest of any front-end framework. It is easy to find top class training and documentation as well as relevant examples to solve common problems that apply to all Ember projects.
+          </p>
+          <div class="component-contract">
+            <img class="expand-chevron" src="images/icon-chevron.svg"/>
+          </div>
+        {{/liquid-if}}
+
     </div>
   </div>
   <div class="component-graphic">
