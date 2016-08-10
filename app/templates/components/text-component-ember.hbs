@@ -1,0 +1,47 @@
+<div class="text-component">
+  <div class="component-graphic">
+    <img class="graphic" src="images/icon-performance.svg"/>
+  </div>
+  <div class="component-info" {{action "expandComponent"}}>
+    <div class="component-title">
+      <span>Ember.js: The Best Way to Build PWAs</span>
+    </div>
+    <div class="component-overview">
+      <div class="state">
+        <span>The Ember Advantage:</span>
+        <ul>
+          <li>
+            Ember has been at the forefront of web application development since 2011
+          </li>
+          <li>
+            Ember is a complete front-end stack, and includes all the tools you need to build PWAs. You can think of it as an SDK for the web
+          </li>
+          <li>
+            Developing applications with Ember offers not only a technical advantage, but a vast business advantage for enterprise in training and onboarding new and current developers, long-term consistency, open governance – keeping you in control, availability of incremental adoption, completeness of vision, an enthusiastic worldwide community, and expertise on demand
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="component-expanded">
+      {{#unless isExpanded}}
+        <div class="component-expand">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/unless}}
+      {{#if isExpanded}}
+        <p>
+          Building PWAs is the future of enterprise application development, however, what I will call “rewrite culture” is a major problem keeping organizations from making the next step. In enterprise there is extremely high turnover, developers move on quickly and churn is so high that most organizations spend most of their time rewriting other developers’ code because there is no convention in the configuration. What one developer thinks is the best solution may not be what the next developer believes and so the rewrite cycle begins because these technologies do not work with one another.
+        </p>
+        <p>
+          Enterprise needs a framework that is tested, established, and not limiting. It should be easy to train developers in the new technology and also be efficient in bringing new developers and consultants on board so they can be productive as quick as possible. The framework should also have long term consistency and a complete vision. Choosing the wrong framework can have an enormous impact on an organization’s ability to ship products in a timely manner and being able to maintain code in the future. Ember has pioneered this approach to building web applications since 2011.
+        </p>
+        <p>
+          Ember.js, an open source JavaScript framework, is the best way to build the progressive web apps that solve these problems in the enterprise environment. The Ember framework is a complete front-end stack and includes all the tools required to build them. You can think of it as an SDK for the Web. Ember offers a full set of features out of the box to create complex thick-client applications so enterprise can stop hiring specialists for each technology, which inevitably leads to letting technologies fall out of date as developers leave an organization.
+        </p>
+        <div class="component-contract">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

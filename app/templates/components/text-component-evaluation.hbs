@@ -1,0 +1,47 @@
+<div class="text-component">
+  <div class="component-graphic">
+    <img class="graphic" src="images/icon-scale.svg"/>
+  </div>
+  <div class="component-info" {{action "expandComponent"}}>
+    <div class="component-title">
+      <span>Evaulation of the Current Framework Landscape</span>
+    </div>
+    <div class="component-overview">
+      <div class="state">
+        <p>
+          Oftentimes, technology decisions are driven primarily by engineering teams. This is great, because you don’t want to choose technically flawed technology, and your developers are the ones who will have to live with the decision day-to-day. At the same time, however, engineers tend to miss important business considerations, which can make or break the project long-term. In addition to the rubric your engineers use to evaluate frameworks from a technical perspective, make sure they also evaluate them from a business perspective:
+        </p>
+      </div>
+    </div>
+    <div class="component-expanded">
+      {{#unless isExpanded}}
+        <div class="component-expand">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/unless}}
+      {{#if isExpanded}}
+        <p>
+          In enterprise, organizations can be very large and span a number of disciplines using all different kinds of technologies. When choosing to use a new technology in one area of the organization, the effects of that choice on the rest of the organization should be carefully considered.
+        </p>
+        <p>
+          Enterprise should be able to start by testing a new technology somewhere it might be useful, but the whole organization should not have to adopt that technology right away. The ability to incrementally adopt a technology becomes imperative in these respects.
+        </p>
+        <p>
+          New technology today often comes with the tagline: “You’ve done it ALL wrong. It HAS to be done like this and ONLY like this.” As a result, technologies today are extremely binary in an enterprise setting. Either you use the technology everywhere or not at all. Testing a new technology becomes a huge risk to companies. If the technology doesn’t suit the organization, then all that time has been wasted rewriting to adopt it, and now the same amount of time will be wasted either switching back to the previous solution or to another option.
+        </p>
+        <p>
+          There is no guidance when using other frameworks, every team uses the technology as they see fit. However, this leads to developers not being able to switch to different projects and teams because another framework will be used completely differently between those projects and teams.
+        </p>
+        <p>
+          Adopting Ember doesn’t require you to throw your existing solutions away and start over. You can incrementally add Ember to existing apps and migrate to PWAs over time. Ember is also agnostic to back-end technologies, and can integrate with your existing XML and JSON APIs, whether they are built in .NET, Java, PHP, Rails, or anything else. This makes it even easier to integrate Ember with existing projects.
+        </p>
+        <p>
+          If your organization is looking to start using a full front-end stack, the Ember framework is the safest way for enterprise to start adopting new technologies and with the least amount of effort. Ember allows you to do so incrementally without having to rewrite, and can integrate into the current technology ecosystem with ease.
+        </p>
+        <div class="component-contract">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

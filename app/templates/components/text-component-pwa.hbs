@@ -1,0 +1,56 @@
+<div class="text-component">
+  <div class="component-info" {{action "expandComponent"}}>
+    <div class="component-title">
+      <span>Progressive Web Apps are the Future</span>
+    </div>
+    <div class="component-overview">
+      <div class="current-state">
+        <span>Web Apps:</span>
+        <ul>
+          <li>Almost-instant boot</li>
+          <li>No install step</li>
+          <li>Shareable</li>
+          <li>Bookmarkable</li>
+        </ul>
+      </div>
+      <div class="ember-state">
+        <span>Native Apps:</span>
+        <ul>
+          <li>Instant second boot</li>
+          <li>Works offline</li>
+          <li>Access device features</li>
+          <li>Fast, animated UI</li>
+        </ul>
+      </div>
+    </div>
+    <span>Progressive Web Apps combine the strengths of both techbologies to make leaps forward.</span>
+    <div class="component-expanded">
+      {{#unless isExpanded}}
+        <div class="component-expand">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/unless}}
+      {{#if isExpanded}}
+        <p>
+          Making the case for the Progressive Web Application (PWA), an idea first advocated by Google engineers in 2015. A PWA is an application that acts like a very fast loading web page and gradually becomes more like a native app, loading more modules and more capability as a user continues to interact with the app. In building PWAs your organization does away with the need to maintain multiple teams for one project so the same solution will work on different platforms. This one web application can be built by a single team and deployed to all devices and operating systems.
+        </p>
+        <p>
+          PWAs can be added to the home screen of a mobile device and have all the properties of a native application, like notifications and offline abilities. These PWAs are now one tap away from Twitter, Facebook or any mobile browsers and are built within the web browser. With this power, there is no need to install the app directly onto a device and they are “free to implement without permission or payment.” There is no need to wait for app store approval, only a URL is necessary.
+        </p>
+          The URL makes the PWA “linkable” meaning no installation is required and they are easily sharable. This URL can be distributed across all channels and it comes directly back to your own ecosystem creating a sustainable model for real traffic without buying install ads. Instead of the current native app experience: presenting a user with desirable content, asking them to download an application, sign up for the content and then search to find it, a PWA gets straight to the point and delivers content to the user upfront going to a place where native apps cannot and where users are spending more and more of their time. If a user has a good experience he/she will sign up or subscribe for more, building a desirable user experience. As Google states,
+        <p>
+          These apps aren’t packaged and deployed through stores, they’re just websites that took all the right vitamins. They keep the web’s ask-when-you-need-it permission model and add in new capabilities like being top-level in your task switcher, on your home screen, and in your notification tray. Users don’t have to make a heavyweight choice up-front and don’t implicitly sign up for something dangerous just by clicking on a link. Sites that want to send you notifications or be on your home screen have to earn that right over time as you use them more and more. They progressively become “apps”. – Progressive Apps Escaping Tabs Without Losing Your Soul, 2015
+        </p>
+        <p>
+          There are a number of frameworks positioned to build these PWAs effectively and fully featured. However, engineers tend to overweight the technical factors and miss more business focused attributes that will provide the value enterprise needs. It is my goal to prove that Ember.js is the most effective framework for enterprise solutions by adding business elements to the full rubric for evaluating these frameworks to provide the greatest value for enterprise.
+        </p>
+        <div class="component-contract">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/if}}
+    </div>
+  </div>
+  <div class="component-graphic">
+    <img class="graphic" src="images/icon-tap.svg"/>
+  </div>
+</div>

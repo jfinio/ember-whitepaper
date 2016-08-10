@@ -14,6 +14,14 @@
     color: white;
     margin-bottom: 30px;
 
+    @media screen and (max-height: 700px) {
+      min-height: 450px;
+    }
+
+    @media screen and (max-height: 630px) {
+      min-height: 400px;
+    }
+
     img {
       width: 200px;
     }
@@ -21,5 +29,25 @@
     span {
       font-weight: 200;
     }
+  }
+
+  .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+
+    img {
+      width: 100px;
+    }
+
+    span {
+      font-weight: 200;
+    }
+
   }
 }

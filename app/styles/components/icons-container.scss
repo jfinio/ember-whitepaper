@@ -8,7 +8,7 @@
   .icon-container {
     margin: 10px;
     cursor: pointer;
-    width: 90px;
+    width: 100px;
     height: 90px;
 
     &:hover {
@@ -24,6 +24,7 @@
       flex-direction: column;
       text-align: center;
       justify-content: flex-end;
+      margin-bottom: 5px;
     }
   }
 }

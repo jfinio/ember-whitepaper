@@ -1,0 +1,94 @@
+<div class="text-component">
+  <div class="component-graphic">
+    <img class="graphic" src="images/icon-mobiledev.svg"/>
+  </div>
+  <div class="component-info" {{action "expandComponent"}}>
+    <div class="component-title">
+      <span>Stability Without Stagnation = Long-Term Consistency</span>
+    </div>
+    <div class="component-overview">
+      <div class="current-state">
+        <span>Current State:</span>
+        <ul>
+          <li>
+            “Rewrite Culture” – the idea that best practices have changed so much that the best approach is to rewrite an application from the ground up
+          </li>
+          <li>
+            Enterprise is susceptible to being left behind by its own technology – major strategic changes do not consider enterprise
+          </li>
+          <li>
+            New releases are surprises and are very volatile – massive new releases can render a project useless and forces a rewrite
+          </li>
+        </ul>
+      </div>
+      <div class="ember-state">
+        <span>The Ember Solution:</span>
+        <ul>
+          <li>
+            Ember has a standardized release cycle with a new stable release every six weeks – the number of changes between releases is small and manageable
+          </li>
+          <li>
+            Ember offers Long-Term Support (LTS) releases, which are released every six months for teams who prefer stability over the latest features
+          </li>
+          <li>
+            Ember adheres to the Semantic Versioning standard – no breaking changes are made until a major version change
+          </li>
+          <li>
+            Ember applications do not get stuck on old versions – a major new version contains no new features it simply deprecates the old features and you never have to rewrite
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="component-expanded">
+      {{#unless isExpanded}}
+        <div class="component-expand">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/unless}}
+      {{#if isExpanded}}
+        <p>
+          Technology evolves more rapidly than any organization can possibly keep up. The web development world is fast-paced and constantly changing. Managers frequently complain about “rewrite culture” – the idea that best practices have changed so much that the best approach is to rewrite an application from the ground up with the new ideas in mind. It is necessary for enterprise to find a technology that will allow an organization to develop at its own pace, but will also not fall out of date.
+        </p>
+        <p>
+          It is important to consider the long term effects of implementing a technology. Enterprise projects are larger and have longer timelines, so in choosing the right technology for an organization a long term vision is critical. This technology should make it as easy as possible for enterprise to follow its evolving trends and be confident that it will evolve in a consistent and predictable manner.
+        </p>
+        <p>
+          “Rewrite culture” has created a vicious cycle of redevelopment. Enterprises look to developers to tell them what technology they need and their developers are looking to scratch their own itch so to speak, recommending what suits the technical requirements and their experience rather than the goals of the organization. In an industry where developers rarely stay with the same company for more than one or two years, when a developer leaves an organization a new developer may come in with a completely different idea of what is “best practice.” The organization will be asked to use those best practices instead and rewrite the progress they made with their previous developers.
+        </p>
+        <p>
+          Furthermore, a lot of project specific code will have been written for each project. Every time an organization starts a new project or rewrites an old project using a new technology, the same project specific solutions will have to be rewritten again and again.
+        </p>
+        <p>
+          Other frameworks leave enterprise susceptible to being left behind by its own technology. An organization should never be surprised by a massive new release that renders all or some of their work outdated and useless. An enterprise solution is not the trendiest or newest technology, the solution is the one that will still be relevant and up to date much farther down the line while offering an organization stability and consistency over the lifetime of its use.
+        </p>
+        <p>
+          Ember takes a different approach and offers “Stability without Stagnation.” The Ember framework can adopt the latest trends in programming technology without forcing a rewrite and continuing the rewrite cycle. Allowing new ideas to be incorporated in a backwards compatible way.
+        </p>
+        <p>
+          Ember has a standardized release cycle, with a new stable release every six weeks and is the first development framework to achieve such a consistent schedule. The number of changes between each release is small and manageable, and makes it easy to schedule time for maintenance with predictability and consistency. The Long-Term Support (LTS) release provided an alternative option for teams who prefer stability over having the latest cutting-edge features, and are released every six months.
+        </p>
+        <p>
+          Ember also adheres to the Semantic Versioning standard, meaning that no breaking changes are made until a major version change. To ensure that applications do not get stuck on older versions, Ember releases new features on the current major version. When a new major version is announced, it contains no new features, it simply removes deprecated features. The result: you never have to rewrite your app to take advantage of new features.
+        </p>
+        <p>
+          This is supported by the Ember community as well. 76% of Ember developers are using the latest version of Ember, which shows its staying power. Developers can easily migrate to the newest versions and are proven to be doing so.
+        </p>
+        <p>
+          Ember is poised as the “future proof” solution to breaking the rewrite cycle and providing long-term enterprise solutions through predictability, stability and easy migration to new versions.
+        </p>
+        <p>
+          Ember prioritizes a gradual shift to new technologies that doesn’t leave older apps behind, embracing a develop-at-your-own-pace mindset allowing enterprise to control the method and speed of development without worrying about falling behind. Furthermore, Ember importantly is not dead set on being different and staying different, as they have shown an ability to adopt successful concepts from other frameworks – virtual DOM from React to name one.
+        </p>
+        <p>
+          The Ember team has also proven that they are capable of making major changes to their technology while not forcing the user to do so as well. Instead, the user is able to gradually shift into new updates as we saw with the release of Glimmer and Glimmer 2, a high speed rendering engine.
+        </p>
+        <p>
+          Ember has not tried to be the trendiest option when it comes to choosing a web development framework because, when it comes to long-term solutions, trendy usually implies there is an end to the trend. Instead, the Ember core team and community is more focused on building the technology of the future and staying that way.
+        </p>
+        <div class="component-contract">
+          <img class="expand-chevron" src="images/icon-chevron.svg" />
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</div>

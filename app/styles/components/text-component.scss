@@ -7,12 +7,17 @@
   width: 80%;
   margin: 20px;
 
+  @media screen and (max-width: 1025px) {
+    flex-wrap: wrap;
+  }
+
   .component-graphic {
     align-self: center;
     margin-right: 20px;
 
-    img {
-      width: 300px;
+    .graphic {
+      width: 400px;
+      height: 200px;
       cursor: pointer;
     }
 
