@@ -22,6 +22,10 @@
       min-height: 400px;
     }
 
+    @media screen and (max-height: 600px) {
+      min-height: 350px;
+    }
+
     img {
       width: 200px;
     }
