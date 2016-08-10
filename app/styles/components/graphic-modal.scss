@@ -1,13 +1,4 @@
-.modal-container {
-  display:flex;
-  flex: 1;
-  flex-direction: row;
-  margin: 50px;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0px;
-  max-height: 80%;
-}
+
 
 .modal-overlay {
   position: fixed;
@@ -19,4 +10,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal-container {
+  display:flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 50px;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0px;
+  max-height: 80%;
 }
