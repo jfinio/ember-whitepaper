@@ -11,6 +11,10 @@ $card-summary-min-height: 145px;
 
 $font-size: 1em;
 
+/* For ember-modal-dialog addon */
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
+
 @import "./fonts";
 @import "./components/all";
 

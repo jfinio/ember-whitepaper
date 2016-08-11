@@ -1,11 +1,11 @@
 .modal-container {
   display:flex;
-  flex: 1;
   flex-direction: row;
   margin: 50px;
   padding: 0px;
   max-height: 80%;
   background-color: white;
+  justify-content: center;
 }
 
 .modal-overlay {
@@ -19,19 +19,20 @@
   align-items: center;
   justify-content: center;
 
-  .modal-graphic {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    padding: 40px;
-  }
+}
 
-  .graphic-modal-close {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 35px;
-    right: 45px;
-    cursor: pointer;
-  }
+.modal-graphic {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  padding: 40px;
+}
+
+.graphic-modal-close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 35px;
+  right: 45px;
+  cursor: pointer;
 }
