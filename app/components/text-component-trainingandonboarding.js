@@ -10,6 +10,9 @@ export default Ember.Component.extend({
       this.toggleProperty('isExpanded');
     },
     expandGraphic() {
+      this.set('expandedGraphic', true);
+    },
+    endZoom() {
       this.toggleProperty('expandedGraphic');
     }
   }

@@ -1,6 +1,6 @@
 <div class="text-component">
   <div class="component-graphic">
-    <img class="graphic" src="images/icon-performance.svg"/>
+    <img class="graphic" src="images/icon-performance.svg" {{action "expandGraphic"}}/>
   </div>
   <div class="component-info" {{action "expandComponent"}}>
     <div class="component-title">
@@ -45,3 +45,7 @@
     </div>
   </div>
 </div>
+
+{{#if expandedGraphic}}
+  {{graphic-modal closeModal="endZoom"}}
+{{/if}}

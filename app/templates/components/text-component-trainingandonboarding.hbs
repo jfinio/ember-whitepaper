@@ -92,6 +92,10 @@
     </div>
   </div>
   <div class="component-graphic">
-    <img class="graphic" src="images/icon-peoplecycle.svg"/>
+    <img class="graphic" src="images/icon-peoplecycle.svg" {{action "expandGraphic"}}/>
   </div>
 </div>
+
+{{#if expandedGraphic}}
+  {{graphic-modal closeModal="endZoom"}}
+{{/if}}

@@ -80,6 +80,10 @@
     </div>
   </div>
   <div class="component-graphic">
-    <img class="graphic" src="images/icon-penandpaper.svg"/>
+    <img class="graphic" src="images/icon-penandpaper.svg" {{action "expandGraphic"}}/>
   </div>
 </div>
+
+{{#if expandedGraphic}}
+  {{graphic-modal closeModal="endZoom"}}
+{{/if}}
