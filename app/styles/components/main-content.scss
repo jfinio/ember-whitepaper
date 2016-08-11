@@ -15,15 +15,47 @@
     margin-bottom: 30px;
 
     @media screen and (max-height: 700px) {
-      min-height: 450px;
+      min-height: 470px;
     }
 
-    @media screen and (max-height: 630px) {
+    @media screen and (max-height: 680px) {
+      min-height: 440px;
+    }
+
+    @media screen and (max-height: 660px) {
+      min-height: 410px;
+    }
+
+    @media screen and (max-height: 640px) {
       min-height: 400px;
     }
 
+    @media screen and (max-height: 620px) {
+      min-height: 380px;
+    }
+
     @media screen and (max-height: 600px) {
-      min-height: 350px;
+      min-height: 370px;
+    }
+
+    @media screen and (max-height: 580px) {
+      min-height: 360px;
+    }
+
+    @media screen and (max-height: 560px) {
+      min-height: 340px;
+    }
+
+    @media screen and (max-height: 540px) {
+      min-height: 310px;
+    }
+
+    @media screen and (max-height: 520px) {
+      min-height: 280px;
+    }
+
+    @media screen and (max-height: 500px) {
+      min-height: 250px;
     }
 
     img {
