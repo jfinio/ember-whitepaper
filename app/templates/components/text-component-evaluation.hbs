@@ -2,7 +2,7 @@
   <div class="component-graphic">
     <img class="graphic" src="images/icon-scale.svg" {{action "expandGraphic"}}/>
   </div>
-  <div class="component-info" {{action "expandComponent"}}>
+  <div class="component-info">
     <div class="component-title">
       <span>Evaulation of the Current Framework Landscape</span>
     </div>
@@ -15,7 +15,7 @@
     </div>
     <div class="component-expanded">
       {{#unless isExpanded}}
-        <div class="component-expand">
+        <div class="component-expand" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/unless}}
@@ -32,7 +32,7 @@
         </p>
         <p>
         </p>
-        <div class="component-contract">
+        <div class="component-contract" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/liquid-if}}

@@ -2,7 +2,7 @@
   <div class="component-graphic">
     <img class="graphic" src="images/icon-handshake.svg" {{action "expandGraphic"}}/>
   </div>
-  <div class="component-info" {{action "expandComponent"}}>
+  <div class="component-info">
     <div class="component-title">
       <span>Expertise on Demand</span>
     </div>
@@ -35,7 +35,7 @@
     </div>
     <div class="component-expanded">
       {{#unless isExpanded}}
-        <div class="component-expand">
+        <div class="component-expand" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/unless}}
@@ -58,7 +58,7 @@
         <p>
           If your organization is looking to start using a full front-end stack, the Ember framework is the safest way for enterprise to start adopting new technologies and with the least amount of effort. Ember allows you to do so incrementally without having to rewrite, and can integrate into the current technology ecosystem with ease.
         </p>
-        <div class="component-contract">
+        <div class="component-contract" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/liquid-if}}

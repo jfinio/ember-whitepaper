@@ -2,7 +2,7 @@
   <div class="component-graphic">
     <img class="graphic" src="images/icon-performance.svg" {{action "expandGraphic"}}/>
   </div>
-  <div class="component-info" {{action "expandComponent"}}>
+  <div class="component-info">
     <div class="component-title">
       <span>Ember.js: The Best Way to Build PWAs</span>
     </div>
@@ -24,7 +24,7 @@
     </div>
     <div class="component-expanded">
       {{#unless isExpanded}}
-        <div class="component-expand">
+        <div class="component-expand" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/unless}}
@@ -38,7 +38,7 @@
         <p>
           Ember.js, an open source JavaScript framework, is the best way to build the progressive web apps that solve these problems in the enterprise environment. The Ember framework is a complete front-end stack and includes all the tools required to build them. You can think of it as an SDK for the Web. Ember offers a full set of features out of the box to create complex thick-client applications so enterprise can stop hiring specialists for each technology, which inevitably leads to letting technologies fall out of date as developers leave an organization.
         </p>
-        <div class="component-contract">
+        <div class="component-contract" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/liquid-if}}

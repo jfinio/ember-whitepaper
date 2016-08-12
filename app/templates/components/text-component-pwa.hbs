@@ -1,5 +1,5 @@
 <div class="text-component">
-  <div class="component-info" {{action "expandComponent"}}>
+  <div class="component-info">
     <div class="component-title">
       <span>Progressive Web Apps are the Future</span>
     </div>
@@ -26,7 +26,7 @@
     <span>Progressive Web Apps combine the strengths of both techbologies to make leaps forward.</span>
     <div class="component-expanded">
       {{#unless isExpanded}}
-        <div class="component-expand">
+        <div class="component-expand" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/unless}}
@@ -44,7 +44,7 @@
         <p>
           There are a number of frameworks positioned to build these PWAs effectively and fully featured. However, engineers tend to overweight the technical factors and miss more business focused attributes that will provide the value enterprise needs. It is my goal to prove that Ember.js is the most effective framework for enterprise solutions by adding business elements to the full rubric for evaluating these frameworks to provide the greatest value for enterprise.
         </p>
-        <div class="component-contract">
+        <div class="component-contract" {{action "expandComponent"}}>
           <img class="expand-chevron" src="images/icon-chevron.svg" />
         </div>
       {{/liquid-if}}
